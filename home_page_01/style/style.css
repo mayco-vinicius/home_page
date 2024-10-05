@@ -48,6 +48,10 @@ nav {
     color: #04a2b8;
 }
 
+.principal a {
+    color: #04a2b8;
+}
+
 .main-baner {
     background-image: url(/img/fundo_01.jpg);
     background-repeat: no-repeat;
@@ -66,9 +70,57 @@ nav {
     color: #fff;
     background-color: #0559a7;
     border-color: #0559a7;
-    width: 100px;
+    width: 130px;
     height: 40px;
     margin-top: 20px;
-    font-size: 15px;
-    border-radius: 10px;
+    font-size: 17px;
+}
+
+.services-container {
+    padding: 2rem 0;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    /* flex: 1 1 200px; */
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.services-container i {
+    border-style: solid;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    padding: 10px 0;
+    opacity: 0.7;
+}
+
+.services-container h3 {
+    padding: 20px 0 ;
+    font-style: oblique;
+}
+
+.services-container p {
+    color: #2c3334;
+    padding-bottom: 30px;
+}
+
+.featured-container {
+    text-align: center;
+    padding-top: 90px;
+    background-color: #f0e9e9;
+}
+
+.featured-container h2 {
+    font-size: 35px;
+    font-style: oblique;
+    padding-bottom: 30px;
 }
