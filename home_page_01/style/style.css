@@ -103,6 +103,12 @@ nav {
     opacity: 0.7;
 }
 
+.featured-container {
+    text-align: center;
+    padding-top: 90px;
+    background-color: #f0e9e9;
+}
+
 .services-container h3 {
     padding: 20px 0 ;
     font-style: oblique;
@@ -110,13 +116,6 @@ nav {
 
 .services-container p {
     color: #2c3334;
-    padding-bottom: 30px;
-}
-
-.featured-container {
-    text-align: center;
-    padding-top: 90px;
-    background-color: #f0e9e9;
 }
 
 .featured-container h2 {
@@ -124,3 +123,17 @@ nav {
     font-style: oblique;
     padding-bottom: 30px;
 }
+
+.featured-container p {
+    color: #797c7c;
+}
+
+.featured-container img {
+    width: 80%;
+    height: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
